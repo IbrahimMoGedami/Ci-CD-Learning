@@ -19,6 +19,14 @@ platform :ios do
 
   # lane is performing as function
   desc "Description of what the lane does"
+  # lane :build_cicd_project do
+  # gym(
+  #   project: "CiCDLearning.xcodeproj",
+  #   configuration: "Debug",
+  #   scheme: "CiCDLearning",
+  #   clean: true,
+  #   skip_archive: true,
+  # )
   lane :build_cicd_project do
   gym(
     project: "CiCDLearning.xcodeproj",
@@ -26,7 +34,10 @@ platform :ios do
     scheme: "CiCDLearning",
     clean: true,
     skip_archive: true,
+    export_method: "development",
+    xcargs: "-allowProvisioningUpdates"
   )
+end
 end
 
 end
