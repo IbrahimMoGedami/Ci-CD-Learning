@@ -27,6 +27,7 @@ platform :ios do
   #   clean: true,
   #   skip_archive: true,
   # )
+  # end
   lane :build_cicd_project do
   gym(
     project: "CiCDLearning.xcodeproj",
@@ -37,7 +38,6 @@ platform :ios do
     export_method: "development",
     xcargs: "-allowProvisioningUpdates"
   )
-end
 end
 
 end
