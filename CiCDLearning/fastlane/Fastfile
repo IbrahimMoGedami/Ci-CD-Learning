@@ -35,8 +35,6 @@ platform :ios do
     scheme: "CiCDLearning",
     clean: true,
     skip_archive: true,
-    export_method: "development",
-    xcargs: "-allowProvisioningUpdates"
   )
 end
 
