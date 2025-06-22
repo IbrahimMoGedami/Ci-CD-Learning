@@ -299,7 +299,6 @@ PLATFORMS
   x86_64-darwin
 
 DEPENDENCIES
-  bundler (= 2.6.2)
   cocoapods (= 1.16.2)
   fastlane (= 2.228.0)
 

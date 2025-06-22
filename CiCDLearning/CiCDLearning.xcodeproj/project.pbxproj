@@ -14,6 +14,11 @@
 		050A6D752DFE9F960093E872 /* CiCDLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A6D732DFE9F960093E872 /* CiCDLearningTests.swift */; };
 		050A6D792DFE9F990093E872 /* CiCDLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A6D762DFE9F990093E872 /* CiCDLearningUITests.swift */; };
 		050A6D7A2DFE9F990093E872 /* CiCDLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A6D772DFE9F990093E872 /* CiCDLearningUITestsLaunchTests.swift */; };
+		0528DA182E08523D00BC38BF /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 0528DA122E083C3B00BC38BF /* Gemfile */; };
+		0528DA192E08524800BC38BF /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0528DA162E083C4700BC38BF /* report.xml */; };
+		0528DA1A2E08524800BC38BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0528DA152E083C4700BC38BF /* README.md */; };
+		0528DA1B2E08524800BC38BF /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 0528DA132E083C4700BC38BF /* Appfile */; };
+		0528DA1C2E08524800BC38BF /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 0528DA142E083C4700BC38BF /* Fastfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0528DA182E08523D00BC38BF /* Gemfile in Resources */,
+				0528DA192E08524800BC38BF /* report.xml in Resources */,
+				0528DA1A2E08524800BC38BF /* README.md in Resources */,
+				0528DA1B2E08524800BC38BF /* Appfile in Resources */,
+				0528DA1C2E08524800BC38BF /* Fastfile in Resources */,
 				050A6D6F2DFE9F930093E872 /* Preview Assets.xcassets in Resources */,
 				050A6D702DFE9F930093E872 /* Assets.xcassets in Resources */,
 			);
